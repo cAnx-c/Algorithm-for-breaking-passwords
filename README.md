@@ -10,4 +10,5 @@ Ejemplos de salida:
 
 <img width="314" height="55" alt="image" src="https://github.com/user-attachments/assets/d2180ac5-97ef-4d09-8e7b-7765aee43d55" />
 
-
+¿Qué pasa si la contraseña tiene 8+ caracteres y usa mayúsculas, números y símbolos?
+Se lleva al límite el crecimiento exponencial que tiene el algoritmo, haciendo que el objetivo buscado tarde una gran suma de tiempo no razonable, siendo que una contraseña de 8 caracteres tiene 85⁸ ≈ 2.7 * 10¹⁵ combinaciones. Esto contando que use mayúsculas, números y símbolos.
